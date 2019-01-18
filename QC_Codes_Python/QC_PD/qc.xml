@@ -1,0 +1,220 @@
+<qc>
+    <Database name="LONPD.*3M|||LONPD.*4M"> 
+        <!-- NOTE: Multiple names should be separated by 3 "|"s. -->
+        <!-- tag Schedule must be followed by name tag, then list of Conditions. 
+        -->
+        <Schedule>
+            <name>.*Habituation[_\W]1</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>0|||empty</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>600|||601|||602|||603|||604</value>
+            </Condition>
+        </Schedule>
+        
+        <Schedule>
+            <name>.*Habituation[_\W]2</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>0|||empty</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>1200|||2400</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>1200|||2400</value>
+            </Condition>
+        </Schedule>
+        
+        <Schedule>
+            <name>.*Initial[_\W]Touch</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - No. images</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Must[_\W]Touch</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Corrects</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Must[_\W]Initiate</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Corrects</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Punish[_\W]Incorrect</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Trials Completed</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+    </Database>
+
+    <Database name="LONPD">
+        <Schedule>
+            <name>.*Acquisition</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Trials Completed</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Baseline</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Trials Completed</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*[_\W]Reversal[_\W]</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Trials Completed</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*RetentionReversal</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Trials Completed</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Maintenance</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Trials Completed</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+    </Database>
+</qc>

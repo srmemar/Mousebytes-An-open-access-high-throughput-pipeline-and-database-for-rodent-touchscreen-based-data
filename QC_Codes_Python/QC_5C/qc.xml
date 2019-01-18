@@ -1,0 +1,181 @@
+<qc>
+    <Database name="LON5C.*3M|||LON5C.*4M"> 
+        <!-- NOTE: Multiple names should be separated by 3 "|"s. -->
+        <!-- tag Schedule must be followed by name tag, then list of Conditions. 
+        -->
+        <Schedule>
+            <name>.*Habituation[_\W]1</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>0|||empty</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>600|||601|||602|||603|||604</value>
+            </Condition>
+        </Schedule>
+        
+        <Schedule>
+            <name>.*Habituation[_\W]2</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>0|||empty</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>1200|||2400</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>1200|||2400</value>
+            </Condition>
+        </Schedule>
+        
+        <Schedule>
+            <name>.*Initial[_\W]Touch</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - No. images</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Must[_\W]Touch</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>Analysis_Name</name>
+                <value>5C_Touch Must Touch</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Corrects</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Must[_\W]Initiate</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>Analysis_Name</name>
+                <value>5C_Must Initiate Train</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Corrects</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Punish[_\W]Incorrect</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>30</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>Analysis_Name</name>
+                <value>5C_Touch Punish Incor</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>End Summary - Trials Completed</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+    </Database>
+
+    <Database name="LON5C">
+        <Schedule>
+            <name>5CSRTT_(8s|8000ms|4s|4000ms|2s|2000ms|1.5s|1500ms|1s|1000ms|0.8s|800ms|0.6s|600ms|0.4s|400ms|0.2s|200ms)(_MAINTENANCE||_REBASELINE)_Var1</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>50</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>Analysis_Name</name>
+                <value>Cam Mouse5C Touch Var1</value>
+            </Condition>
+            <Condition>
+                <name>Threshold - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>Threshold - Trials</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(2s|2000ms)_INTRAPROBE_Var1</name>
+            <Condition>
+                <name>Max_Number_Trials</name>
+                <value>50</value>
+            </Condition>
+            <Condition>
+                <name>Max_Schedule_Time</name>
+                <value>3600</value>
+            </Condition>
+            <Condition>
+                <name>Analysis_Name</name>
+                <value>Cam Mouse5C Touch Var1</value>
+            </Condition>
+            <Condition>
+                <name>Threshold - Condition</name>
+                <value>&gt;0</value>
+            </Condition>
+            <Condition>
+                <name>Threshold - Trials</name>
+                <value>&gt;0</value>
+            </Condition>
+        </Schedule>
+
+    </Database>
+</qc>

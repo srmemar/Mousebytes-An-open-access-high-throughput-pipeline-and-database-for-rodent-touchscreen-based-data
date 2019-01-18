@@ -1,0 +1,106 @@
+<!-- This is to check each animal ID shoud have a certain number of sessions for each schedule -->
+<qc>
+    <!--
+    <Database name="LON5C.*3M|||LON5C.*4M">
+        <Schedule>
+            <name>.*Habituation[_\W]1</name>
+            <keyword>Habituation 1</keyword>
+            <sessionNumber>==1</sessionNumber>
+        </Schedule>
+        
+        <Schedule>
+            <name>.*Habituation[_\W]2</name>
+            <keyword>Habituation 2</keyword>
+            <sessionNumber>==3</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Initial[_\W]Touch</name>
+            <keyword>Initial Touch</keyword>
+            <sessionNumber>&gt;0</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Must[_\W]Touch</name>
+            <keyword>Must Touch</keyword>
+            <sessionNumber>&gt;0</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Must[_\W]Initiate</name>
+            <keyword>Must Initiate</keyword>
+            <sessionNumber>&gt;0</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>.*Punish[_\W]Incorrect</name>
+            <keyword>Punish Incorrect</keyword>
+            <sessionNumber>&gt;1</sessionNumber>
+        </Schedule>
+    </Database>
+    -->
+    <Database name="LON5C">
+        <Schedule>
+            <name>5CSRTT_(8s|8000ms)_Var1</name>
+            <keyword>5CSRTT_8000ms_Var1</keyword>
+            <sessionNumber>&gt;2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(4s|4000ms)_Var1</name>
+            <keyword>5CSRTT_4000ms_Var1</keyword>
+            <sessionNumber>&gt;2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(2s|2000ms)_Var1</name>
+            <keyword>5CSRTT_2000ms_Var1</keyword>
+            <sessionNumber>&gt;2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(1.5s|1500ms)_Var1</name>
+            <keyword>5CSRTT_1500ms_Var1</keyword>
+            <sessionNumber>==2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(1s|1000ms)_Var1</name>
+            <keyword>5CSRTT_1000ms_Var1</keyword>
+            <sessionNumber>==2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(0.8s|800ms)_Var1</name>
+            <keyword>5CSRTT_0800ms_Var1</keyword>
+            <sessionNumber>==2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(0.6s|600ms)_Var1</name>
+            <keyword>5CSRTT_0600ms_Var1</keyword>
+            <sessionNumber>==2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(0.4s|400ms)_Var1</name>
+            <keyword>5CSRTT_0400ms_Var1</keyword>
+            <sessionNumber>==2</sessionNumber>
+        </Schedule>
+
+        <Schedule>
+            <name>5CSRTT_(0.2s|200ms)_Var1</name>
+            <keyword>5CSRTT_0200ms_Var1</keyword>
+            <sessionNumber>==2</sessionNumber>
+        </Schedule>
+
+        <!-- 
+        <Schedule>
+            <name>5CSRTT_(2s|2000ms)_INTRAPROBE_Var1</name>
+            <keyword>5CSRTT_2000ms_INTRAPROBE_Var1</keyword>
+            <sessionNumber>&gt;5</sessionNumber>
+        </Schedule>
+        --> 
+
+    </Database>
+</qc>
