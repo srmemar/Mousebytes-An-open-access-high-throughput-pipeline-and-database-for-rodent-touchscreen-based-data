@@ -1,4 +1,4 @@
-# MouseBytes Quality Control
+# MouseBytes Quality Control Code
 Quality control (QC) procedure in MouseBytes checks the content of xml files against the potential errors and flag the files that do not meet the criteria (refer to "QC Documents" folder). Such xml files belong to a cognitive task experimented using Bussey-Saksida Mouse Touchscreen System and exported via ABET II software. Note that each xml file must contain the machine-generated (ABET II) features like "Analysis Name", "Schedule Name", "Max_Number_Trials", and "Max_Schedule_Time". 
 
 
