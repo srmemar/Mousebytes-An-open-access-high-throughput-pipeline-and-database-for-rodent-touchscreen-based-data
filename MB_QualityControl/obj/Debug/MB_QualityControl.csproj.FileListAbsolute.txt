@@ -11,3 +11,16 @@ C:\Users\srmem\source\repos\MB_QualityControl\MB_QualityControl\obj\Debug\MB_Qua
 C:\Users\srmem\source\repos\MB_QualityControl\MB_QualityControl\obj\Debug\MB_QualityControl.csproj.CopyComplete
 C:\Users\srmem\source\repos\MB_QualityControl\MB_QualityControl\obj\Debug\MB_QualityControl.exe
 C:\Users\srmem\source\repos\MB_QualityControl\MB_QualityControl\obj\Debug\MB_QualityControl.pdb
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\bin\Debug\MB_QualityControl.exe.config
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\bin\Debug\MB_QualityControl.exe
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\bin\Debug\MB_QualityControl.pdb
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\bin\Debug\System.ValueTuple.dll
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\bin\Debug\System.ValueTuple.xml
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.csprojAssemblyReference.cache
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.Form1.resources
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.Properties.Resources.resources
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.csproj.GenerateResource.cache
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.csproj.CoreCompileInputs.cache
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.csproj.CopyComplete
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.exe
+C:\Users\srmem\Source\Repos\srmemar\Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data\MB_QualityControl\obj\Debug\MB_QualityControl.pdb
