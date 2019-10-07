@@ -26,6 +26,7 @@ In these scripts, data from the touchscreen experiments is run through a K-Mean 
 ### Vigilance Script v4 MB.R
 
 This script conducts additional analyses on the 5-CSRTT dataset to generate the vigilance data. Trial-by-trial data is segmented and binned based on blocks of 10 trials. Once this process is complete, the script conducts split-plot ANOVA analyses on the generated datasets. In order to use this script, run the entire script and select the raw data file in the file prompt.
+
 -----------------------------------------------------------------------------
 # Integrating external behaviour systems with MouseBytes
 ### XML_Output.ipynb
