@@ -1,4 +1,7 @@
-﻿using System;
+// The following script checks the content of xml files against the potential errors and flag the files that do not meet the criteria (refer to "QC Documents" folder).
+// Copyright (C) 2019 Sara Memar
+//Please see LICENSE.md file for Copyright: https://github.com/srmemar/Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data/blob/master/LICENSE
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
