@@ -7,7 +7,7 @@
 #                                               #
 #################################################
 
-# These scripts are designed to reformat 5CSRTT raw data files for usage in split-plot ANOVA. The initial functions of these scripts filter the data into the respective genotypes and convert the data organization.
+# This script is designed to reformat 5CSRTT raw data files for usage in split-plot ANOVA. The initial functions of this script filter the data into the respective genotypes and convert the data organization.
 # Copyright (C) 2019 Daniel Palmer
 # Please see LICENSE.md file for Copyright: https://github.com/srmemar/Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data/blob/master/LICENSE
 
