@@ -1,3 +1,6 @@
+# In this script the calculated p values for the Fisher’s exact tests are corrected using the Benjamini Hochburg False Discovery Rate correction factor. To operate this script, one must run the script, and select the file with p-values from the file path.
+# Copyright (C) 2019 Daniel Palmer
+# Please see LICENSE.md file for Copyright: https://github.com/srmemar/Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data/blob/master/LICENSE
 #Library#
 
 ## Import ##
