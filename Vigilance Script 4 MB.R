@@ -1,3 +1,6 @@
+# This script conducts additional analyses on the 5-CSRTT dataset to generate the vigilance data. Trial-by-trial data is segmented and binned based on blocks of 10 trials. Once this process is complete, the script conducts split-plot ANOVA analyses on the generated datasets.
+# Copyright (C) 2019 Daniel Palmer
+# Please see LICENSE.md file for Copyright: https://github.com/srmemar/Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data/blob/master/LICENSE
 
 Vigilance.Calc.Block3.Function = function(dataset,binsize){
   acc.start.col = which(colnames(dataset) == 'TRIAL.ANALYSIS...CORRECT._1')
