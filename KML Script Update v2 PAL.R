@@ -1,3 +1,8 @@
+# In this script, data from the PAL (Paired-associates Learning) touchscreen experiment is run through a K-Mean clustering package (KML3D) to generate k-mean groupings from our data. In addition to this process, this script also calculates data tables with p-values associated with the Fisher’s Exact Test. To operate this script, run the entire script and select the appropriate data file from the file folder list.
+# Copyright (C) 2019 Daniel Palmer
+# Please see LICENSE.md file for Copyright: https://github.com/srmemar/Mousebytes-An-open-access-high-throughput-pipeline-and-database-for-rodent-touchscreen-based-data/blob/master/LICENSE
+
+
 ## Library ##
 library(dplyr)
 library(kml3d)
